@@ -61,7 +61,7 @@ npm install
 npm run dev -- --host 0.0.0.0
 ```
 
-The frontend expects the backend at `http://localhost:8000/api/v1` by default.
+The frontend expects the backend at `http://localhost:8001/api/v1` by default. If your local backend runs on a different port, set `VITE_API_BASE` accordingly.
 
 ## Running tests
 
